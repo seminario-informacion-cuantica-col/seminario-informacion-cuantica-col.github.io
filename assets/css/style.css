@@ -902,6 +902,17 @@ a:hover {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.btn-primary {
+  background-color: #2d2c55 !important;
+  border-color: #2d2c55 !important;
+}
+.btn-primary:hover {
+  background-color: #403f7a !important; /* tono más claro al pasar el mouse */
+  border-color: #403f7a !important;
+}
+
+
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
