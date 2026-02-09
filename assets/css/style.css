@@ -1365,4 +1365,39 @@ footer .credits a {
   color: #fff;
 }
 
+/*--------------------------------------------------------------
+# Conferences
+--------------------------------------------------------------*/
+
+.conference-list {
+  list-style: none;
+  padding-left: 0;
+  max-width: 800px;
+}
+
+.conference-list li {
+  margin-bottom: 0.6em;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  border-left: 3px solid #4f46e5;
+  padding-left: 0.6em;
+}
+
+.conference-list a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.conference-list a:hover {
+  text-decoration: underline;
+  color: #4f46e5;
+}
+
+.conference-list .date {
+  color: #6b7280;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
 
